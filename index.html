@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Create a box with all borders</h1>
+    <div class="border">
+    
+    <div class="box" style="border: 3px solid salmon;">
+       <p style="color: black;"> This box use a <span>Soild</span> border</p>
+    </div>
+    <div class="box" style="border: 3px dashed rebeccapurple;" >
+        <p style="color: blueviolet;"> This box use a <span>Dashed</span> border</p>
+     </div>
+     <div class="box" style="border: 3px dotted orangered;">
+        <p style="color: red;"> This box use a <span>Dotted</span> border</p>
+     </div>
+     <div class="box" style="border: 3px double maroon;">
+        <p> This box use a <span>Double</span> border</p>
+     </div>
+     <div class="box" style="border: 3px groove purple;">
+        <p> This box use a <span>Groove</span> border</p>
+     </div>
+     <div class="box" style="border: 3px inset magenta;">
+        <p> This box use a <span>Inset</span> border</p>
+     </div>
+     <div class="box" style="border: 3px ridge red;">
+        <p> This box use a <span>Ridge</span> border</p>
+     </div>
+     <div class="box" style="border: 3px outset purple;">
+        <p> This box use a <span>outset</span> border</p>
+     </div>
+
+     <div class="box" style="border: 3px hidden mediumaquamarine;">
+        <p> This box use a <span>Hidden</span> border</p>
+     </div>
+    </div>
+<hr>
+    
+  <h1> Registration Form inside a Box</h1>
+  <div class="form_box">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter Your Name Here...." required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter Your Name Here...." required>
+      
+      <label for="phone" >Phone Number:</label>
+      <input type="number" id="phone" placeholder="Enter Your Phone Number Here...." required>
+
+      <label for="bio">Message</label>
+      <textarea id="bio" name="bio" >Message Here</textarea>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+<hr>
+
+<h1>Box with Image and Video</h1>
+  <div class="box3">
+    <h3>Using a image within the box</h3>
+    <img src="download.jpeg" alt="" style="margin-left: 20%;">
+<br>
+    <h3>Use a Image within the Box</h3>
+    <video controls id="vid">
+      <source src="vid.mp4" type="video/mp4">
+    </video>
+  </div>
+
+</body>
+</html>

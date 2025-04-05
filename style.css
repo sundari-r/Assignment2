@@ -1,0 +1,96 @@
+.box{
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+body{
+    
+    background: url(d.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    opacity: 1;
+}
+.box p{
+    text-align: center;
+    font-size: 19px;
+    margin-top: 22px;
+    color: blue;
+}
+.border{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+gap: 2.7rem;
+    
+}
+span{
+    font-size: 24px;
+    font-family: sans-serif;
+    background: linear-gradient(to right,red,green,black,#3f13c2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+.form_box{
+    margin-bottom: 10%;
+    margin-left: 30%;
+    width: 390px;
+    border: 2px solid #444;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(42, 223, 193, 0.096);
+    border: 3px solid rgba(119, 229, 234, 0.76);
+}
+h1{    margin-left: 30%;
+    padding: 12px; 
+    font-family: sans-serif;
+    margin-top: 32px;
+    border-left: 3px solid purple;
+margin-bottom: 7%;
+
+
+}
+.form_box label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+.form_box input{
+    width: 100%;
+    padding-top: 21px;
+}
+ .form_box textarea{
+    width: 100%;
+    padding-top: 39px;
+ }
+
+ .form_box button{
+    padding: 12px;
+    background-color: rgb(5, 248, 216);
+    border-radius: 12px 9px 9px 2px;
+    border: none;
+    margin-top: 12px;
+    color: white;
+ }
+
+ .box3{
+    width: 699px;
+    margin-left: 30%;
+    border: 3px outset maroon;
+
+ }
+
+ #vid{
+    width: 499px;
+    margin-top: 10%;
+    margin-left: 10%;
+ }
+ h3{
+    font-size: 29px;
+    margin-left: 20%;
+ }
